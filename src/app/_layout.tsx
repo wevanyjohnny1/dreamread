@@ -1,5 +1,5 @@
 import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
-import "../styles/global.css";
+import "../../global.css";
 import { useFonts } from 'expo-font';
 import { Slot } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';

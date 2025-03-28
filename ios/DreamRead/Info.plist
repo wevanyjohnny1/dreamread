@@ -27,7 +27,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>myapp</string>
+          <string>dread</string>
           <string>com.johnnymore.DreamRead</string>
         </array>
       </dict>
@@ -45,6 +45,10 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>CUSTOM: Allow $(PRODUCT_NAME) to access the microphone</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>CUSTOM: Allow $(PRODUCT_NAME) to securely recognize user speech</string>
     <key>NSUserActivityTypes</key>
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
@@ -72,7 +76,7 @@
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
     <key>UIUserInterfaceStyle</key>
-    <string>Automatic</string>
+    <string>Dark</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
   </dict>
