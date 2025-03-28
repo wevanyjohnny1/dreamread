@@ -10,7 +10,7 @@ export default function Index() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       if (user?.id) {
-        router.replace("/(drawer)");
+        router.replace("/(tabs)");
       } else {
         router.replace("/(auth)");
       }
